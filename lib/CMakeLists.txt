@@ -2,10 +2,13 @@
 # ======================================================
 set(CLANG_PLUGINS
     RecordDeclCounter
+    ArgsCommenter
     )
 
 set(RecordDeclCounter_SOURCES
     RecordDeclCounter.cpp)
+set(ArgsCommenter_SOURCES
+    ArgsCommenter.cpp)
 
 
 # CONFIGURE THE PLUGIN LIBRARIES
